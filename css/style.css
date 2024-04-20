@@ -39,8 +39,43 @@
         font-family: "Ubuntu", sans-serif;
         color: var(--scnd-color);
     }
-    /* .ubuntu-light {
+     /*.ubuntu-light {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: normal;
     } */
+    .container{
+        width: 936px;
+        padding: 0 15px;
+        outline: 2px dashed red;
+        margin: 0 auto;
+      }
+      .galary-image{
+        margin-bottom: 62px;
+      }
+      .galary-name{
+margin-bottom: 32px;
+font-weight: 300;
+      }
+      .galary-title{
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 30px;
+      }
+      .galary-description{
+        margin-bottom: 130px;
+      }
+      .galary-button{
+        padding-top: 20px;
+        padding-left: 49px;
+        padding-bottom: 21px;
+        padding-right: 48px;
+        background-color: white;
+      }
+      .header{
+        padding-top: 71px;
+        padding-bottom: 123px;
+      }
+      .galary-list{
+        margin-bottom: 90px;
+      }
