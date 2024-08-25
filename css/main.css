@@ -1,3 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
 :root {
   --main-text-color: #626262;
   --accent-color: #03A9F4;
@@ -25,14 +76,6 @@ body {
   margin: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 .header {
   padding-top: 71px;
   padding-bottom: 123px;
@@ -46,6 +89,9 @@ a {
 
 .header-link {
   color: var(--header-link-color);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .header-link:hover,
@@ -80,11 +126,6 @@ a {
   color: var(--scnd-color);
 }
 
-/*.ubuntu-light {
-font-family: "Ubuntu", sans-serif;
-font-weight: 300;
-font-style: normal;
-} */
 .galary-image {
   margin-bottom: 62px;
 }
