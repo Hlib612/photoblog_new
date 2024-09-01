@@ -80,7 +80,6 @@ body {
   padding-top: 71px;
   padding-bottom: 123px;
 }
-
 .header-list {
   display: flex;
   gap: 100px;
@@ -93,12 +92,9 @@ body {
   font-weight: 400;
   font-size: 14px;
 }
-
-.header-link:hover,
-.header-link:focus {
+.header-link:hover, .header-link:focus {
   color: var(--accent-color);
 }
-
 .header-link.current {
   color: var(--accent-color);
 }
@@ -112,36 +108,29 @@ body {
   padding-left: 0;
   row-gap: 130px;
 }
-
-.galary-list-item {
+.galary-item {
   width: 420px;
 }
-
 .galary-title {
   font-size: var(--title-text-size);
 }
-
 .galary-name > a {
   font-family: "Ubuntu", sans-serif;
   color: var(--scnd-color);
 }
-
 .galary-image {
   margin-bottom: 62px;
 }
-
 .galary-name {
   margin-bottom: 32px;
   font-weight: 300;
   font-size: 14px;
 }
-
 .galary-title {
   margin-bottom: 40px;
   font-weight: 400px;
   font-size: 30px;
 }
-
 .galary-button {
   display: block;
   margin: 0 auto;

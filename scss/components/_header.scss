@@ -1,22 +1,25 @@
 .header {
   padding-top: 71px;
   padding-bottom: 123px;
-}
-.header-list {
-  display: flex;
-  gap: 100px;
-  justify-content: center;
+  &-nav{
+
+  }
+  &-list{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+  }
 }
 .header-link {
   color: var(--header-link-color);
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
-}
-.header-link:hover,
-.header-link:focus {
+  &:hover,
+&:focus {
   color: var(--accent-color);
 }
-.header-link.current {
+&.current {
   color: var(--accent-color);
+}
 }
